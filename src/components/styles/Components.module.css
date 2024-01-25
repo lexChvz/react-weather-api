@@ -1,0 +1,31 @@
+.headerImg {
+  width: 15rem;
+}
+
+.locationForm {
+  margin: 1rem 0;
+}
+
+.searchBtn {
+  background-color: #c9c904;
+  color: #040d12;
+  font-weight: bold;
+}
+
+.searchBtn:hover {
+  border-color: #040d12;
+}
+
+.currlocation {
+  color: #c9c904;
+}
+
+@media (min-width: 768px) {
+  .headerImg {
+    width: 20rem;
+  }
+
+  .locationForm {
+    margin: 2rem 0;
+  }
+}

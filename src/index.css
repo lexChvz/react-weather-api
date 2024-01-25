@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 62.5%;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #040d12;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #c9c904;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #f9f871;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 32rem;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  line-height: 1.1;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+
+input[type='text'] {
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #c9c904;
+  border-radius: 0.5rem;
+}
+
+button {
+  border-radius: 0.8rem;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.2rem;
+  margin: 0.25rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #021d2c;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #c9c904;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin: 2.5rem 0;
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  input[type='text'] {
+    font-size: 1.4rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+  }
+
+  p,
+  a {
+    font-size: 1.6rem;
+  }
+}
