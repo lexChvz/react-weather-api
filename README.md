@@ -38,7 +38,8 @@ The design is simple and purely mine.
 
 ## Preview
 
-![Weather API Web App homepage](Screenshot_3.png)
-![Weather API Web App with result](Screenshot_4.png)
+![Weather API Web App Hompepage](https://github.com/lexChvz/react-weather-api/assets/87348142/3a144404-cc41-4d1e-a31b-89fa00fd4f91)
+![Weather API Web App with Results](https://github.com/lexChvz/react-weather-api/assets/87348142/b00448a8-8d78-4a67-bc3d-6e436e66de8c)
+
 
 Thank you so much!
