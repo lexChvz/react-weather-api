@@ -11,14 +11,15 @@ Here are the steps:
 
 1. Sign up to Accu Weather API to get your own API Key (skip to the next step if you already have API KEY)
 2. Clone this repository
-3. Run the command `npm install` to install the packages to you workspace
+3. Run the command `npm install` to install the packages to your workspace
 4. Create a **.env** file on the root of the project folder
-5. Create a variable like this:
+5. Create a variable like this
    (just an example):
 
    VITE_API_KEY = S87AsdSD7dfd8SD8dfdF7S8DF7fdfSD8
 
 6. Run the command `npm run dev` on the terminal (you must in the root folder)
+7. Copy the URL provided from the terminal by vite ex.: `http://localhost:5173/` and paste it on the browser
 
 ## Tools used for this project
 
